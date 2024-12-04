@@ -28,12 +28,14 @@ table.schedule{
 
 table.schedule th, table.schedule td {
    border: 1px solid gray;
+   padding: 5px;
+   vertical-align: top;
 }
 
 
 /* Table Caption Styles */
 
-table.schedule caption {
+table.schedule caption{
    caption-side: bottom;
    text-align: right;
 }
@@ -41,15 +43,22 @@ table.schedule caption {
 
 /* Row Group Styles */
 
+table.schedule thead tr{
+   height:30px;
+}
 
-
+table.schedule tbody tr{
+   height:40px;
+}
 
 /* Column Group Styles */
 
 col#firstCol{
    background-color: rgb(218, 210, 218);
+   width:16%;
 }
 
 col.dayCols{
    background-color: pink;
+   width:12%;
 }
