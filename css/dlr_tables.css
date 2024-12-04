@@ -46,6 +46,10 @@ table.schedule caption {
 
 /* Column Group Styles */
 
-#firstCol{
-   
+col#firstCol{
+   background-color: rgb(218, 210, 218);
+}
+
+col.dayCols{
+   background-color: pink;
 }
