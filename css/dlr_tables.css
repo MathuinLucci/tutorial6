@@ -62,3 +62,8 @@ col.dayCols{
    background-color: pink;
    width:12%;
 }
+
+tfoot {
+   color:white;
+   background-color: black;
+}
